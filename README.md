@@ -55,7 +55,7 @@ $ butterfly.server.py --host=myhost --port=57575 --login
 Or with PAM authentication (ROOT required)
 
 ```bash
-# butterfly.server.py --host=myhost --port=57575 --login --pam_profile=sshd
+$ butterfly.server.py --host=myhost --port=57575 --login --pam_profile=sshd
 ```
 
 You can change `sshd` to your preferred PAM profile.
